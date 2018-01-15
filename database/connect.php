@@ -1,4 +1,3 @@
-
 <?php
 try {
 $bdd = new PDO('mysql:host=localhost;dbname=form;charset=utf8','root','root');
@@ -10,8 +9,3 @@ die('Erreur : ' . $e->getMessage());
 }
 
 ?>
-
-
-
-
-
