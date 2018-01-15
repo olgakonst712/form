@@ -11,17 +11,15 @@
   </head>
   <body>
     <?php
-    include("nav_bar.php"); // on appelle le fichier
-    ?>
+include("nav_bar.php"); // on appelle le fichier
+?>
     <div class="container">
-      <h1 class="text-xs-center">Connexion</h1>
+      <h1 class="text-xs-center">Mot de passe oublié</h1>
       <div class="row">
         <div class="col-xl-4 col-xl-offset-4 col-md-6 col-md-offset-3">
-          <form action="login.php" method="post" class="p-y-3 p-x-2" novalidate>
-            <input type="email" name="email" class="form-control" placeholder="Adresse e-mail">
-            <input type="password" name="password" class="form-control" placeholder="Mot de passe">
-            <input type="submit" class="btn btn-success m-b-1" value="Connexion">
-            <a href="oubli.php" class="text-success">Mot de passe oublié ?</a>
+          <form action="oubli.php" method="post" class="p-y-3 p-x-2" novalidate>
+            <input type="email" name="email" class="form-control" placeholder="Adresse e-mail de votre compte">
+            <input type="submit" class="btn btn-success" value="Soumettre">
           </form>
         </div>
       </div>

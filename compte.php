@@ -10,12 +10,14 @@
     
   </head>
   <body>
-        <?php
+    <?php
 include("nav_bar.php"); // on appelle le fichier
 ?>
-
-    <div class="container">
-      <h1>Accueil</h1>
+ 
+    <div class="container profil">
+      <h1>Mon compte</h1>
+      <a href="avatar.php" class="btn btn-success">Changer mon image de profil</a>
+      <a href="password.php" class="btn btn-success">Changer mon mot de passe</a>
     </div>
   </body>
 </html>
